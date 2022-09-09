@@ -4,10 +4,10 @@ import Layout from "../layouts/Layout";
 function MainPage() {
     const Content = (  
         <div>
-            Привет
+            123
         </div>
     );
-    
+
     return <Layout content={Content} />;
 }
 

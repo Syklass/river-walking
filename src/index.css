@@ -7,4 +7,7 @@
   *{
     @apply bg-bg-dark text-slate-200 text-base;
   }
+  .padding-x {
+		@apply px-6 lg:px-16 xl:px-20;
+	}
 }
