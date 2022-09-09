@@ -5,7 +5,12 @@
 
 @layer base{
   *{
-    @apply bg-bg-dark text-slate-200 text-base;
+    @apply text-white text-base;
+  }
+  body{
+    background: rgb(3,0,66);
+    background: linear-gradient(180deg, rgba(3,0,66,1) 0%, rgba(0,0,0,0.97) 60%);
+    height: 5000px;
   }
   .padding-x {
 		@apply px-6 lg:px-16 xl:px-20;
